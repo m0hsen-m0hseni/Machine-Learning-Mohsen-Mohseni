@@ -24,7 +24,7 @@ The final convolutional layer (`layer4`) was used as the default layer for gener
 
 ## 3. Method
 
-We used the TorchCAM library to generate activation maps using LayerCAM.
+I used the TorchCAM library to generate activation maps using LayerCAM.
 
 For each input image:
 - The model predicts the top-5 classes
@@ -46,7 +46,7 @@ Additionally, multi-layer analysis was performed using layers:
 The model correctly classified the dog image (e.g. *Bernese mountain dog*).
 The activation map shows strong focus on the dog’s face and upper body.
 
-![Dog CAM](Labs/Lab2/results/dog_positive_cam_layer4.png)
+![Dog CAM](results/dog_positive_cam_layer4.png)
 
 This indicates that the model relies on meaningful semantic features.
 
@@ -57,7 +57,7 @@ This indicates that the model relies on meaningful semantic features.
 The cat image is also correctly classified.
 Activation maps highlight the face, especially the eyes and ears.
 
-![Cat CAM](Labs/Lab2/results/cat_positive_cam_layer4.png)
+![Cat CAM](results/cat_positive_cam_layer4.png)
 
 This suggests that the model identifies key facial features for classification.
 
@@ -68,7 +68,7 @@ This suggests that the model identifies key facial features for classification.
 The car image is correctly classified.
 The activation maps focus on wheels and body structure.
 
-![Car CAM](Labs/Lab2/results/car_positive_cam_layer4.png)
+![Car CAM](results/car_positive_cam_layer4.png)
 
 This shows that the model detects object parts relevant for classification.
 
@@ -79,26 +79,26 @@ This shows that the model detects object parts relevant for classification.
 For negative examples (images that do not belong to the target class), the model often focuses on irrelevant or misleading regions. Activation maps are more scattered and predictions are less confident.
 
 **Dog (negative):**
-![Dog Negative](Labs/Lab2/results/dog_negative_cam_layer4.png)
+![Dog Negative](results/dog_negative_cam_layer4.png)
 
 **Cat (negative):**
-![Cat Negative](Labs/Lab2/results/cat_negative_cam_layer4.png)
+![Cat Negative](results/cat_negative_cam_layer4.png)
 
 **Car (negative):**
-![Car Negative](Labs/Lab2/results/car_negative_cam_layer4.png)
+![Car Negative](results/car_negative_cam_layer4.png)
 
 ---
 
 ## 5. Multi-layer Analysis (VG requirement)
 
 ### Dog Multi-layer
-![Dog Multilayer](Labs/Lab2/results/dog_positive_multilayer_cam.png)
+![Dog Multilayer](results/dog_positive_multilayer_cam.png)
 
 ### Car Multi-layer
-![Car Multilayer](Labs/Lab2/results/car_positive_multilayer_cam.png)
+![Car Multilayer](results/car_positive_multilayer_cam.png)
 
 ### Cat Multi-layer
-![Cat Multilayer](Labs/Lab2/results/cat_positive_multilayer_cam.png)
+![Cat Multilayer](results/cat_positive_multilayer_cam.png)
 
 ### Analysis
 
@@ -116,7 +116,7 @@ The network gradually builds understanding from low-level features to high-level
 
 An image not present in ImageNet (a cartoon logo) was tested.
 
-![Unknown CAM](Labs/Lab2/results/unknown_object_cam_layer4.png)
+![Unknown CAM](results/unknown_object_cam_layer4.png)
 
 ### Observations
 
@@ -159,7 +159,7 @@ For unknown images:
 
 ## 8. Discussion
 
-From the experiments, we observe that CNNs rely heavily on visual patterns rather than true understanding. Early layers capture simple features, while deeper layers capture semantic meaning.
+From the experiments, I observe that CNNs rely heavily on visual patterns rather than true understanding. Early layers capture simple features, while deeper layers capture semantic meaning.
 
 CAM visualizations are effective for understanding model behavior. However, models struggle with out-of-distribution data and still produce predictions.
 
