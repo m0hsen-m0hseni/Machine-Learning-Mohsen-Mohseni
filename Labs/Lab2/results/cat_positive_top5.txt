@@ -1,0 +1,9 @@
+Image: cat_positive.jpg
+Target group: cat
+Top-5 predictions:
+
+1. class_id=282, label=tiger_cat, probability=0.2242
+2. class_id=281, label=tabby, probability=0.2093
+3. class_id=285, label=Egyptian_cat, probability=0.0463
+4. class_id=287, label=lynx, probability=0.0111
+5. class_id=283, label=Persian_cat, probability=0.0078

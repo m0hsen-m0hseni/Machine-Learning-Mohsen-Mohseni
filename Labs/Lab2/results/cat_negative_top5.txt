@@ -1,0 +1,9 @@
+Image: cat_negative.jpg
+Target group: cat
+Top-5 predictions:
+
+1. class_id=996, label=hen-of-the-woods, probability=0.1312
+2. class_id=156, label=Blenheim_spaniel, probability=0.0412
+3. class_id=215, label=Brittany_spaniel, probability=0.0155
+4. class_id=998, label=ear, probability=0.0098
+5. class_id=155, label=Shih-Tzu, probability=0.0094

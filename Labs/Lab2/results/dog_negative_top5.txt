@@ -1,0 +1,9 @@
+Image: dog_negative.jpg
+Target group: dog
+Top-5 predictions:
+
+1. class_id=232, label=Border_collie, probability=0.2256
+2. class_id=231, label=collie, probability=0.1225
+3. class_id=169, label=borzoi, probability=0.0370
+4. class_id=176, label=Saluki, probability=0.0170
+5. class_id=212, label=English_setter, probability=0.0125

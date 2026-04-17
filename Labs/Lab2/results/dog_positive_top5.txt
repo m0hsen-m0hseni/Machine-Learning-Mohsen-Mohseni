@@ -1,0 +1,9 @@
+Image: dog_positive.jpg
+Target group: dog
+Top-5 predictions:
+
+1. class_id=239, label=Bernese_mountain_dog, probability=0.4459
+2. class_id=240, label=Appenzeller, probability=0.0296
+3. class_id=241, label=EntleBucher, probability=0.0181
+4. class_id=238, label=Greater_Swiss_Mountain_dog, probability=0.0144
+5. class_id=247, label=Saint_Bernard, probability=0.0083

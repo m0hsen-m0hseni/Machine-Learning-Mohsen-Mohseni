@@ -1,0 +1,118 @@
+Lab 2 - CNN Interpretability Summary
+==================================================
+
+Image: cat_positive.jpg
+Target class group: cat
+Type: positive
+Top-1 prediction: tiger_cat (0.2242)
+Group found in top-5: True
+CAM saved: results\cat_positive_cam_layer4.png
+Multi-layer CAM saved: results\cat_positive_multilayer_cam.png
+
+Top-5:
+ 1, tiger_cat (0.2242) [class_id=282]
+ 2, tabby (0.2093) [class_id=281]
+ 3, Egyptian_cat (0.0463) [class_id=285]
+ 4, lynx (0.0111) [class_id=287]
+ 5, Persian_cat (0.0078) [class_id=283]
+
+--------------------------------------------------
+
+Image: cat_negative.jpg
+Target class group: cat
+Type: negative
+Top-1 prediction: hen-of-the-woods (0.1312)
+Group found in top-5: False
+CAM saved: results\cat_negative_cam_layer4.png
+
+Top-5:
+ 1, hen-of-the-woods (0.1312) [class_id=996]
+ 2, Blenheim_spaniel (0.0412) [class_id=156]
+ 3, Brittany_spaniel (0.0155) [class_id=215]
+ 4, ear (0.0098) [class_id=998]
+ 5, Shih-Tzu (0.0094) [class_id=155]
+
+--------------------------------------------------
+
+Image: dog_positive.jpg
+Target class group: dog
+Type: positive
+Top-1 prediction: Bernese_mountain_dog (0.4459)
+Group found in top-5: False
+CAM saved: results\dog_positive_cam_layer4.png
+Multi-layer CAM saved: results\dog_positive_multilayer_cam.png
+
+Top-5:
+ 1, Bernese_mountain_dog (0.4459) [class_id=239]
+ 2, Appenzeller (0.0296) [class_id=240]
+ 3, EntleBucher (0.0181) [class_id=241]
+ 4, Greater_Swiss_Mountain_dog (0.0144) [class_id=238]
+ 5, Saint_Bernard (0.0083) [class_id=247]
+
+--------------------------------------------------
+
+Image: dog_negative.jpg
+Target class group: dog
+Type: negative
+Top-1 prediction: Border_collie (0.2256)
+Group found in top-5: False
+CAM saved: results\dog_negative_cam_layer4.png
+
+Top-5:
+ 1, Border_collie (0.2256) [class_id=232]
+ 2, collie (0.1225) [class_id=231]
+ 3, borzoi (0.0370) [class_id=169]
+ 4, Saluki (0.0170) [class_id=176]
+ 5, English_setter (0.0125) [class_id=212]
+
+--------------------------------------------------
+
+Image: car_positive.jpg
+Target class group: car
+Type: positive
+Top-1 prediction: sports_car (0.4308)
+Group found in top-5: True
+CAM saved: results\car_positive_cam_layer4.png
+Multi-layer CAM saved: results\car_positive_multilayer_cam.png
+
+Top-5:
+ 1, sports_car (0.4308) [class_id=817]
+ 2, racer (0.0954) [class_id=751]
+ 3, car_wheel (0.0395) [class_id=479]
+ 4, convertible (0.0067) [class_id=511]
+ 5, pickup (0.0052) [class_id=717]
+
+--------------------------------------------------
+
+Image: car_negative.jpg
+Target class group: car
+Type: negative
+Top-1 prediction: sports_car (0.1433)
+Group found in top-5: True
+CAM saved: results\car_negative_cam_layer4.png
+
+Top-5:
+ 1, sports_car (0.1433) [class_id=817]
+ 2, limousine (0.0429) [class_id=627]
+ 3, minivan (0.0349) [class_id=656]
+ 4, convertible (0.0322) [class_id=511]
+ 5, car_wheel (0.0274) [class_id=479]
+
+--------------------------------------------------
+
+Image: unknown_object.jpg
+Target class group: unknown
+Type: unknown
+Top-1 prediction: slot (0.0492)
+Group found in top-5: False
+CAM saved: results\unknown_object_cam_layer4.png
+
+Top-5:
+ 1, slot (0.0492) [class_id=800]
+ 2, analog_clock (0.0310) [class_id=409]
+ 3, plunger (0.0212) [class_id=731]
+ 4, jigsaw_puzzle (0.0201) [class_id=611]
+ 5, wall_clock (0.0191) [class_id=892]
+
+--------------------------------------------------
+

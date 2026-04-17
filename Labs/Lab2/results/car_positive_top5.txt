@@ -1,0 +1,9 @@
+Image: car_positive.jpg
+Target group: car
+Top-5 predictions:
+
+1. class_id=817, label=sports_car, probability=0.4308
+2. class_id=751, label=racer, probability=0.0954
+3. class_id=479, label=car_wheel, probability=0.0395
+4. class_id=511, label=convertible, probability=0.0067
+5. class_id=717, label=pickup, probability=0.0052

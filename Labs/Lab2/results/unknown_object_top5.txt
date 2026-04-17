@@ -1,0 +1,9 @@
+Image: unknown_object.jpg
+Target group: unknown
+Top-5 predictions:
+
+1. class_id=800, label=slot, probability=0.0492
+2. class_id=409, label=analog_clock, probability=0.0310
+3. class_id=731, label=plunger, probability=0.0212
+4. class_id=611, label=jigsaw_puzzle, probability=0.0201
+5. class_id=892, label=wall_clock, probability=0.0191

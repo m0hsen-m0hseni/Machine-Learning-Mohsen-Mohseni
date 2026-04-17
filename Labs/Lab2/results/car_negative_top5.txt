@@ -1,0 +1,9 @@
+Image: car_negative.jpg
+Target group: car
+Top-5 predictions:
+
+1. class_id=817, label=sports_car, probability=0.1433
+2. class_id=627, label=limousine, probability=0.0429
+3. class_id=656, label=minivan, probability=0.0349
+4. class_id=511, label=convertible, probability=0.0322
+5. class_id=479, label=car_wheel, probability=0.0274
